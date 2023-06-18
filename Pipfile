@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+matplotlib = "*"
+xgboost = "*"
+lightgbm = "*"
+notebook = "*"
+optuna = "*"
+plotly = "*"
+
+[dev-packages]
+mypy = "*"
+black = "*"
+flake8 = "*"
+ruff = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.4"
