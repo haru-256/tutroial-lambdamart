@@ -13,6 +13,7 @@ lightgbm = "*"
 notebook = "*"
 optuna = "*"
 plotly = "*"
+shap = "*"
 
 [dev-packages]
 mypy = "*"
